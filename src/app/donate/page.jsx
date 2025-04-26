@@ -15,6 +15,7 @@ const DonatePage = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">
           Why Your Donation Matters
         </h2>
+        
         <div className="flex flex-col md:flex-row md:items-start gap-12">
           {/* Text */}
           <div className="md:w-1/2 w-full text-gray-700 leading-relaxed">
