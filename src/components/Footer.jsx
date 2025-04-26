@@ -12,8 +12,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-[#1A2730] text-white pt-16 pb-6 px-6 sm:px-10 lg:px-20">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Logo & Description */}
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-2xl font-bold">
               <span className="text-white">Pathway to Freedom</span>
