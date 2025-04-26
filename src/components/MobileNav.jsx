@@ -60,7 +60,7 @@ const MobileNav = () => {
               Contact Us
             </Button>
           </Link>
-          <Link href="/contact">
+          <Link href="/donate">
             <Button className="border bg-[#7DAA92] text-[#ffffff]  hover:bg-[#315542] hover:text-white transition duration-300 ease-in-out">
               Donate
             </Button>

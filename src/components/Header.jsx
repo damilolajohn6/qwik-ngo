@@ -36,7 +36,7 @@ const Header = () => {
                 Contact Us
               </Button>
             </Link>
-            <Link href="/contact">
+            <Link href="/donate">
               <Button className="border border-[#7DAA92] text-[#7DAA92] bg-transparent hover:bg-[#315542] hover:text-white transition">
                 Donate
               </Button>
