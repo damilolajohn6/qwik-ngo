@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import SuccessStoryCard from "./SuccessStoryCard";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; 
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const SuccessStoriesSection = () => {
   const stories = [
@@ -72,9 +72,11 @@ const SuccessStoriesSection = () => {
         </button>
       </div>
 
-      <p className="text-lg text-orange-600 mt-12 text-center font-semibold">
-        Encouraging readers to support more success stories..
-      </p>
+      <div className="flex justify-end">
+        <p className="text-lg text-orange-600 mt-12 text-center font-semibold">
+          Encouraging readers to support more success stories..
+        </p>
+      </div>
     </section>
   );
 };

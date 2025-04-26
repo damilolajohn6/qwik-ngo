@@ -11,16 +11,16 @@ const SponsorLogosSection = ({ logos }) => {
   const [visibleLogos, setVisibleLogos] = useState(4); 
 
   const defaultLogos = [
-    { src: "/logos/sponsor1.png", alt: "Sponsor 1 Logo" },
-    { src: "/logos/sponsor2.png", alt: "Sponsor 2 Logo" },
-    { src: "/logos/sponsor3.png", alt: "Sponsor 3 Logo" },
-    { src: "/logos/sponsor4.png", alt: "Sponsor 4 Logo" },
-    { src: "/logos/sponsor5.png", alt: "Sponsor 5 Logo" },
-    { src: "/logos/sponsor6.png", alt: "Sponsor 6 Logo" },
-    { src: "/logos/sponsor7.png", alt: "Sponsor 7 Logo" },
-    { src: "/logos/sponsor8.png", alt: "Sponsor 8 Logo" },
-    { src: "/logos/sponsor9.png", alt: "Sponsor 9 Logo" },
-    { src: "/logos/sponsor10.png", alt: "Sponsor 10 Logo" },
+    { src: "/human.png", alt: "Sponsor 1 Logo" },
+    { src: "/human2.png", alt: "Sponsor 2 Logo" },
+    { src: "/human3.png", alt: "Sponsor 3 Logo" },
+    { src: "/human4.png", alt: "Sponsor 4 Logo" },
+    { src: "/human5.png", alt: "Sponsor 5 Logo" },
+    { src: "/human6.png", alt: "Sponsor 6 Logo" },
+    { src: "/human7.png", alt: "Sponsor 7 Logo" },
+    { src: "/human8.png", alt: "Sponsor 8 Logo" },
+    { src: "/human9.png", alt: "Sponsor 9 Logo" },
+    { src: "/human10.png", alt: "Sponsor 10 Logo" },
     // Add more logo objects here
   ];
 
@@ -70,7 +70,7 @@ const SponsorLogosSection = ({ logos }) => {
     <section className="container mx-auto py-12 px-4 md:px-12">
 
       <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8 text-center">
-        Our Sponsors
+        Our Partners
       </h2>
 
       <div ref={carouselRef} className="relative overflow-hidden">
